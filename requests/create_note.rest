@@ -1,5 +1,6 @@
 POST http://localhost:3001/api/notes
 Content-Type: application/json
+Authorization: bearer
 
 {
     "content": "VS Code is pretty nice tool for testing REST apis",
